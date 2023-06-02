@@ -4,15 +4,19 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #faf7f5 !important;
-  stroke: #faf7f5 !important;
-  fill: #faf7f5 !important;
+  color: #f0bf4c !important;
+  stroke: #f0bf4c !important;
+  fill: #f0bf4c !important;
 }
 
 .swiper-pagination-bullet {
-  background-color: rgba(250, 247, 245, 0.7) !important;
+  background-color: #f0bf4c !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #faf7f5 !important;
+  background-color: #f0bf4c !important;
+}
+
+.wrapper {
+  @apply container mx-auto px-5 lg:px-0;
 }
